@@ -10,7 +10,7 @@ def summon_captain_planet(array)# code an argument here
   array.collect do |i|
     i.capitalize << '!'
   end
-  
+
 end
 
 def long_planeteer_calls(words)# code an argument here
@@ -18,7 +18,7 @@ def long_planeteer_calls(words)# code an argument here
   words.any? do |word|
     word.length > 4
   end
-  
+
 end
 
 def find_the_cheese(array)# code an argument here
